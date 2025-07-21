@@ -22,8 +22,6 @@ g++ -std=c++11 -o entropy \
   linkedlistarray.cpp
 ```
 
-You can also create a script or Makefile for convenience.
-
 ## 🚀 Usage
 
 ```bash
