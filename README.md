@@ -30,6 +30,7 @@ g++ -std=c++11 -o entropy \
 
 - **INPUTFILE.csv** must be in the following format:
   - Comma-separated values
+  - The **first row** should be a **header line** with column names
   - Each row is a data instance
   - Each column (except the last) is a feature
   - The **last column** is the class label
@@ -37,6 +38,7 @@ g++ -std=c++11 -o entropy \
 ### Example:
 
 ```csv
+sepal_length,sepal_width,petal_length,petal_width,label
 5.1,3.5,1.4,0.2,setosa
 4.9,3.0,1.4,0.2,setosa
 ...
